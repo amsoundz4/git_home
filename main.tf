@@ -12,3 +12,4 @@ resource "aws_lightsail_instance" "test" {
     foo = "bar"
   }
 }
+tags = name 
